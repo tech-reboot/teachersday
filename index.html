@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers Day!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="wish()" id="btn">Thank You!</button>
+    <p id="wish"></p>
+    <p id="copyright">This webpage is made by Aryaman Chandra </p>
+
+</body>
+
+<script type="text/javascript">
+    function wish(){
+        var random =Math.floor(Math.random() * 10) + 1;
+        console.log(random);
+
+        if (random == 1) { 
+            document.getElementById("wish").innerHTML = "for teaching us in these difficult times";
+            document.getElementById("wish").style.left = "40%";
+        }
+        else if (random == 2) { 
+            document.getElementById("wish").innerHTML = "for helping us no matter what!";
+            document.getElementById("wish").style.left = "42%";
+        }
+
+        else if (random == 3) { 
+            document.getElementById("wish").innerHTML = "for being such a wonderfull teacher!";
+            document.getElementById("wish").style.left = "42%";
+        }
+        else if (random == 4) { 
+            document.getElementById("wish").innerHTML = "for being so kind!";
+            document.getElementById("wish").style.left = "44%";
+        }
+        else if (random == 5) {
+            document.getElementById("wish").innerHTML = "for being so sweet!";
+            document.getElementById("wish").style.left = "44%";
+        }
+        else if (random == 6) { 
+            document.getElementById("wish").innerHTML = "for giving us advice!";
+            document.getElementById("wish").style.left = "43%"
+        }
+        else if (random == 7) { 
+            document.getElementById("wish").innerHTML = "for being so patient!";
+            document.getElementById("wish").style.left = "43%";
+            
+        }
+        else if (random == 8) { 
+            document.getElementById("wish").innerHTML = "for working so hard!";
+            document.getElementById("wish").style.left = "43%";
+        }
+        else if (random == 9) { 
+            document.getElementById("wish").innerHTML = "for making us have fun while learning!";
+            document.getElementById("wish").style.left = "40%";
+        }
+        else{
+            document.getElementById("wish").innerHTML = "for everything!"
+            document.getElementById("wish").style.left = "45%"
+        }
+        
+
+    }
+
+</script>
+</html>
