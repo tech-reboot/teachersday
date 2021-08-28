@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background: #34495E;
+}
+
+   
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: .7rem 1rem;
+    border: 1px solid;
+    background: #E74C3C;
+    font-family: monospace;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 16rem;
+    visibility: hidden;
+}
+
+p{
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    text-align: center;
+    background: transparent;
+}
+
+#copyright{
+    color: grey;
+    top: 90%;
+    left: 40%;
+}
+
+#copyright:hover{
+    cursor: pointer;
+    color: white;
+}
+
